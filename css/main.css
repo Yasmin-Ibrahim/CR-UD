@@ -1,0 +1,54 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.tit-pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px 20px;
+    margin: 0 0 30px;
+    overflow: auto;
+    /* position: fixed;
+    width: 100%;
+    z-index: 9999; */
+}
+
+.link a{
+    color: #fff !important;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0 15px;
+    transition: all .8s;
+}
+
+.link a:hover{
+    text-decoration: underline !important;
+}
+
+.card{
+    background-color: #333;
+    color: #fff;
+    padding: 13px;
+}
+
+.card-body{
+    background-color: #444;
+    color: #fff;
+}
+
+.form-control{
+    margin: 7px 0;
+}
+
+table tr th, td{
+    background-color: #44444480 !important;
+    color: #fff !important;
+    text-align: center;
+}
+
